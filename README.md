@@ -1,76 +1,32 @@
-repl.it
+Code For Kids repl.it
 =======
 
 An online environment for interactively exploring programming languages, based
 on [jsREPL](https://github.com/replit/jsrepl).
 
-Current Languages
+Code For Kids (www.codeforkids.ca) has found that using repl.it is a great way to ensure that everyone is using the same version of langauges, and it avoids having to set them up across many different laptops.
+
+Languages in use:
 -----------------
 
-* JavaScript Variants
-  * JavaScript
-  * CoffeeScript
-  * Kaffeine
-  * Move
-  * JavaScript.next
-
-* Esoteric
-  * Bloop
-  * Brainfuck
-  * LOLCODE
-  * Unlambda
-  * Emoticon
-
-* Classic
-  * Quick Basic
-  * Forth
-
-* Serious
-  * Scheme
-  * Lua
-  * Python
-  * Ruby (beta)
-
-Getting the Code
-----------------
-
-    git clone git://github.com/replit/repl.it.git
-    cd repl.it
-    git submodule update --init --recursive
-
-Dependencies
-------------
-
-#### [node.js](http://nodejs.org/)  
-
-#### [npm](http://npmjs.org/)
-
-    curl https://npmjs.org/install.sh | sh
-   
-#### [CoffeeScript](http://jashkenas.github.com/coffee-script/)
-  
-  Using npm:
-  
-    npm install -g coffee-script
-
-#### [Pygments](http://pygments.org/)
-
-  Using easy_install:
-  
-    easy_install Pygments
-    
-  Using pip:
-  
-    pip install Pygments
+* Ruby
+* Python
+* Javascript
+* Lua
 
 Running repl.it
 ---------------
 
-repl.it comes bundled with a static node HTTP file server and a CoffeeScript file watcher & (re)-compiler:
+Simply do ./start to start, ./stop to stop or ./restart to... restart the main repl.codeforkids.ca
 
-    ./server.js 8888
-    
-repl.it can then be opened at http://localhost:8888/index.html.
+To test your own code, do ./server.js 8888 (or any port) and it goes live to repl.codeforkids.ca:8888 (or any port). Ctrl-c to kill it.
+
+Things on the radar
+--------------------
+
+Update ruby to 2.1
+Change to CFK colours
+Add good example code under examples
 
 License
 -------
