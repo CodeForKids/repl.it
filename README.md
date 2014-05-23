@@ -24,9 +24,9 @@ To test your own code, do ./server.js 8888 (or any port) and it goes live to rep
 Things on the radar
 --------------------
 
-Update ruby to 2.1
-Change to CFK colours
-Add good example code under examples
+* Update ruby to 2.1
+* Change to CFK colours
+* Add good example code under examples
 
 License
 -------
