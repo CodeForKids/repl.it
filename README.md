@@ -17,14 +17,14 @@ Languages in use:
 Running repl.it
 ---------------
 
-Simply do ./start to start, ./stop to stop or ./restart to... restart the main repl.codeforkids.ca
+Simply do `./start` to start, `./stop` to stop or `./restart` to... restart the main repl.codeforkids.ca
 
-To test your own code, do ./server.js 8888 (or any port) and it goes live to repl.codeforkids.ca:8888 (or any port). Ctrl-c to kill it.
+To test your own code, do `./server.js 8888` (or any port) and it goes live to repl.codeforkids.ca:8888 (or any port). Ctrl-c to kill it.
 
 Things on the radar
 --------------------
 
-* Update ruby to 2.1
+* Update ruby to 2.x
 * Change to CFK colours
 * Add good example code under examples
 
