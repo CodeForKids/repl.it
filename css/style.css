@@ -37,6 +37,7 @@ abbr,  acronym {
 html, body {
   height: 100%;
   margin: 0;
+  background-color: #469AD0; 
   padding: 0;
   font-family: Arial, Verdana, san-serif;
   overflow-y: hidden;
@@ -210,13 +211,13 @@ html, body {
 #resize-left {
   border-right: 1px solid #DDD;
   background: #EEE;
-  background: -webkit-linear-gradient(right, #CCC, #FFF);
+  background: -webkit-linear-gradient(right, #EC7331, #E75113);
   background: -moz-linear-gradient(right, #CCC, #FFF);
   background: -ms-linear-gradient(right, #CCC, #FFF);
   background: -o-linear-gradient(right, #CCC, #FFF);
   background: linear-gradient(right, #CCC, #FFF);
   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#FFFFFF', EndColorStr='#CCCCCC', GradientType=1);
-  width: 8px;
+  width: 5px;
   cursor: w-resize;
   position: absolute;
   height: 100%;
@@ -246,13 +247,13 @@ html, body {
 #resize-right {
   border-left: 1px solid #DDD;
   background: #F8F8F8;
-  background: -webkit-linear-gradient(left, #CCC, #FFF);
+  background: -webkit-linear-gradient(left, #E75113, #EC7331);
   background: -moz-linear-gradient(left, #CCC, #FFF);
   background: -ms-linear-gradient(left, #CCC, #FFF);
   background: -o-linear-gradient(left, #CCC, #FFF);
   background: linear-gradient(left, #CCC, #FFF);
   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#CCCCCC', EndColorStr='#FFFFFF', GradientType=1);
-  width: 8px;
+  width: 5px;
   cursor: e-resize;
   position: absolute;
   height: 100%;
