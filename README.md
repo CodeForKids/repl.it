@@ -6,6 +6,8 @@ on [jsREPL](https://github.com/replit/jsrepl).
 
 Code For Kids (www.codeforkids.ca) has found that using repl.it is a great way to ensure that everyone is using the same version of langauges, and it avoids having to set them up across many different laptops.
 
+Please use CodeForKidsRepl as our production branch.
+
 Languages in use:
 -----------------
 
