@@ -553,12 +553,14 @@ html, body {
 
 #content-languages {
   color: #444;
+  text-align:center;
   outline: none !important;
 }
 
 .language-group {
-  width: 50%;
-  float: left;
+  width: 80%;
+  float: none;
+  margin: auto;
   padding-top: 6%;
   padding-bottom: 4%;
 }
@@ -572,7 +574,7 @@ html, body {
   display: block;
   margin-right: 8%;
   padding-bottom: 5px;
-  background: url('/images/sprite.png') -18px -3px no-repeat;
+  background: none;
 }
 
 .language-group ul {
