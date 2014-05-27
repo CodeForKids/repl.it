@@ -106,27 +106,26 @@
       </div>
       <!-- Language selector. -->
       <!-- NOTE: tabindex needed for it to receive focus. -->
-      <div id="content-languages" class="page" tabindex="0">
         <h2 class="content-title">Select a Language</h2>
         <div id="languages-back" class="page-close"></div>
         <div class="language-group">
           <h3 class="language-group-header">Languages</h3></h3>
           <ul>
               <li>
-              <a href="/languages/Ruby"><b><em>R</em>uby</b>
-                is a fun, web-driven and useful language used by many programmers.</a>
+              <a href="/languages/Ruby"><b><em>R</em>uby (beta):</b>&nbsp;
+                A natural dynamic object-oriented language.</a>
             </li>
             <li>
-              <a href="/languages/Python"><b><em>P</em>ython</b>
-                is a powerful, yet beginner-friendly languge that focuses on simplcity and productivity.</a>
+              <a href="/languages/Python"><b><em>P</em>ython:</b>&nbsp;
+                A dynamic language emphasizing readability.</a>
             </li>
             <li>
-              <a href="/languages/Lua"><b><em>L</em>ua</b>
-               is an interesting and dynamic language often used for scripting in video games.</a>
+              <a href="/languages/Lua"><b><em>L</em>ua:</b>&nbsp;
+                A lightweight multi-paradigm scripting language.</a>
             </li>
             <li>
-              <a href="/languages/JavaScript"><b><em>J</em>avaScript</b>
-                is the de facto language of the web. Almost all websites, including this one, use JavaScript.</a>
+              <a href="/languages/JavaScript"><b><em>J</em>avaScript:</b>&nbsp;
+                The de facto language of the Web.</a>
             </li>
 
           </ul>
