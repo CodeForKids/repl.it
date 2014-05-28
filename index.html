@@ -9,9 +9,12 @@
    $(document).keypress(function(e){
    if(e.which == 13 && e.shiftKey){ //shift + enter to go to presentation mode. Wanted it to be f11, but it's reservered by system.
    $("#header").toggle();
-   $("#main").css("height","");
    $("#footer").toggle();
    $("#main").css("height","100%");
+   $("#editor").css("height","100%");
+   $("#editor-widget").css("height","100%");
+   $("#ace_gutter").css("height","100%");
+   $("#console").css("height","100%");
    }
   });
 
