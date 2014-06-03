@@ -7,7 +7,7 @@
    <script>
    //Presentation mode
    $(document).keypress(function(e){
-   if(e.which == 13 && e.shiftKey){ //shift + enter to go to presentation mode. Wanted it to be f11, but it's reservered by system.
+   if(e.which == 13 && e.shiftKey && e.ctrlKey){ //shift + enter + ctrl to go to presentation mode. Wanted it to be f11, but it's reservered by system.
    $("#header").toggle();
    $("#footer").toggle();
    $("#main").css("height","100%");
