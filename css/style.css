@@ -109,6 +109,7 @@ html, body {
 #button-save {
   background-image: url('/images/sprite.png') !important;
   background-position: -6px -161px !important;
+  display: none;
 }
 
 #button-save:hover {
