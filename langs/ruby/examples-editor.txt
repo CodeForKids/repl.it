@@ -1,24 +1,24 @@
-Regular Expressions
-********************************************************************************
-str = "I will drill for a well in Hull."
-regex = Regexp.new(/\w+ll/)
-
-matchdata = regex.match(str)
-while matchdata != nil
-  puts matchdata[0]
-  str = matchdata.post_match
-  matchdata = regex.match(str)
-end
-********************************************************************************
-
 Factorial
 ********************************************************************************
-def fact(n)
-  if n == 0
-    1
-  else
-    n * fact(n-1)
-  end
+puts “Enter a number”
+number = gets.to_i
+answer = 1
+count = 1
+while count <= number
+    answer = answer * count
+    count = count + 1
 end
-fact 6
+puts answer
 ********************************************************************************
+
+Even or Odd
+********************************************************************************
+puts “Enter a number”
+number = gets.to_i
+if number%2 == 0
+    puts "Even"
+else
+    puts "Odd"
+end
+********************************************************************************
+
