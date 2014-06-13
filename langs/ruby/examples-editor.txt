@@ -2,6 +2,10 @@ Factorial
 ********************************************************************************
 puts "Enter a number"
 number = gets.to_i
+if number > 10
+    puts "Sorry, too big. We've calculated it with 10"
+    number = 10
+end
 answer = 1
 count = 1
 while count <= number
