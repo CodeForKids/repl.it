@@ -679,6 +679,7 @@ html, body {
   border-bottom-left-radius: 20px;
   display: block;
   white-space: pre;
+  word-wrap: break-word;
 }
 
 .example-group:hover code, .example-group:hover .example-group-header {
