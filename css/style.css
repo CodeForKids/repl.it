@@ -639,6 +639,7 @@ html, body {
 .example-group {
   width: 100%;
   cursor: pointer;
+  overflow: scroll;
 }
 
 .example-1 {
@@ -680,7 +681,6 @@ html, body {
   display: block;
   white-space: pre;
   word-wrap: break-word;
-  overflow: scroll;
 }
 
 .example-group:hover code, .example-group:hover .example-group-header {
